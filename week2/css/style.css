@@ -1,0 +1,42 @@
+
+body,html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.cont{
+    height: 600px;
+    width: 1000px;
+    border: 2px solid red;
+    margin: 10% 0% 0% 20%;
+    
+}
+
+.text{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: dodgerblue;
+}
+
+.cont input{
+    margin-left: 400px;
+    padding: 8px;
+}
+
+.sub{
+    color: dodgerblue;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 1px solid dodgerblue;
+    padding-bottom: 6px;
+    padding-right: 6px; 
+}
+
+.sub:hover{
+    background-color: dodgerblue;
+    color: white;
+    transition: 1s;
+}
